@@ -1,3 +1,5 @@
+@icon("res://addons/input_prompts/icons/device.svg")
+
 extends Resource
 class_name DeviceMappingResource
 ## Resource to define a device's input prompt mapping

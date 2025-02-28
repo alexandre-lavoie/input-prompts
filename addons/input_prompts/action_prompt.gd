@@ -1,3 +1,5 @@
+@icon("res://addons/input_prompts/icons/input.svg")
+
 extends Node
 class_name ActionPrompt
 

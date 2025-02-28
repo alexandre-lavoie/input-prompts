@@ -1,3 +1,4 @@
+@icon("res://addons/input_prompts/icons/device.svg")
 extends Resource
 class_name InputPromptsConfiguration
 ## Configuration for Input Prompts plugin

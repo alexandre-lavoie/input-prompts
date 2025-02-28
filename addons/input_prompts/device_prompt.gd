@@ -1,3 +1,5 @@
+@icon("res://addons/input_prompts/icons/device.svg")
+
 extends Node
 class_name DevicePrompt
 

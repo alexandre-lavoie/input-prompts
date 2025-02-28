@@ -1,3 +1,5 @@
+@icon("res://addons/input_prompts/icons/input.svg")
+
 extends Resource
 class_name DeviceInputResource
 ## Resource to define a device's single input prompt
