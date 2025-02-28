@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://bv8xyxmv05ctd"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_0qw66"]
+[ext_resource type="Texture2D" uid="uid://dg03qb51c16iw" path="res://addons/input_prompts/devices/xbox/assets/xbox_rt.svg" id="2_x4mj7"]
+
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_kdv3j"]
+device = -1
+axis = 5
+axis_value = 1.0
+
+[resource]
+script = ExtResource("1_0qw66")
+events = Array[InputEvent]([SubResource("InputEventJoypadMotion_kdv3j")])
+textures = Array[Texture]([ExtResource("2_x4mj7")])

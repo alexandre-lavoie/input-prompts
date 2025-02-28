@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://btib5iaxrlv7a"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_prompt.gd" id="1_3q1t0"]
+[ext_resource type="Script" path="res://demo/input_prompts/device.gd" id="1_cx0tw"]
+[ext_resource type="Texture2D" uid="uid://ds33orhlahqw0" path="res://addons/input_prompts/devices/joystick/assets/controller_generic.svg" id="2_a7eop"]
+[ext_resource type="Texture2D" uid="uid://bc8w1v2l442lt" path="res://addons/input_prompts/devices/xbox/assets/xbox_button_a.svg" id="4_wpxk7"]
+
+[node name="Device" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_cx0tw")
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -26.0
+offset_top = 5.0
+offset_right = 26.0
+offset_bottom = 28.0
+grow_horizontal = 2
+text = "Device"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Action" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -25.0
+offset_top = 26.0
+offset_right = 25.0
+offset_bottom = 49.0
+grow_horizontal = 2
+text = "Action"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Device" type="TextureRect" parent="." node_paths=PackedStringArray("texture_rect")]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_a7eop")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("1_3q1t0")
+texture_rect = NodePath(".")
+
+[node name="Input" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -25.0
+offset_top = -75.0
+offset_right = 25.0
+offset_bottom = -25.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("4_wpxk7")
+expand_mode = 1
+stretch_mode = 5

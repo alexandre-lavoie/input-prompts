@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="InputPromptsConfiguration" load_steps=7 format=3 uid="uid://c2alvjtr466by"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_mapping_resource.gd" id="1_7h0t2"]
+[ext_resource type="Resource" uid="uid://b6xvw71nqrtq4" path="res://addons/input_prompts/devices/keyboard/keyboard_mouse.tres" id="2_t63jk"]
+[ext_resource type="Resource" uid="uid://dwka8xehnw2fn" path="res://addons/input_prompts/devices/xbox/xbox.tres" id="3_ernwx"]
+[ext_resource type="Resource" uid="uid://rb7onpeyhwqg" path="res://addons/input_prompts/devices/joystick/generic.tres" id="3_fw10d"]
+[ext_resource type="Script" path="res://addons/input_prompts/input_prompts_configuration.gd" id="4_e5qnl"]
+[ext_resource type="Resource" uid="uid://buc1lv8h7rxor" path="res://addons/input_prompts/devices/playstation/playstation.tres" id="4_ln6we"]
+
+[resource]
+script = ExtResource("4_e5qnl")
+fallback_device = ExtResource("3_fw10d")
+devices = Array[ExtResource("1_7h0t2")]([ExtResource("2_t63jk"), ExtResource("3_ernwx"), ExtResource("4_ln6we")])

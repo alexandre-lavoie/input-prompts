@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://d31esupxqwece"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_85okl"]
+[ext_resource type="Texture2D" uid="uid://cmw2fsojvqy0e" path="res://addons/input_prompts/devices/keyboard/assets/mouse_right.svg" id="2_ml54j"]
+
+[sub_resource type="InputEventMouseButton" id="InputEventMouseButton_c1vkd"]
+button_mask = 2
+position = Vector2(399, 12)
+global_position = Vector2(408, 58)
+button_index = 2
+pressed = true
+
+[resource]
+script = ExtResource("1_85okl")
+events = Array[InputEvent]([SubResource("InputEventMouseButton_c1vkd")])
+textures = Array[Texture]([ExtResource("2_ml54j")])

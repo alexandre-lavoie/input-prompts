@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=5 format=3 uid="uid://n8a02b7lpge4"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_d80pt"]
+[ext_resource type="Texture2D" uid="uid://hjnouwpp357h" path="res://addons/input_prompts/devices/keyboard/assets/keyboard_end.svg" id="2_4mjlp"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_e40k5"]
+physical_keycode = 4194318
+
+[sub_resource type="InputEventKey" id="InputEventKey_y8aep"]
+shift_pressed = true
+physical_keycode = 4194318
+
+[resource]
+script = ExtResource("1_d80pt")
+events = Array[InputEvent]([SubResource("InputEventKey_e40k5"), SubResource("InputEventKey_y8aep")])
+textures = Array[Texture]([ExtResource("2_4mjlp")])

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://dvpye1kf78aj3"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_4empj"]
+[ext_resource type="Texture2D" uid="uid://d3h02o4af2t78" path="res://addons/input_prompts/devices/joystick/assets/stick_l_right.svg" id="2_y8rxx"]
+
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_koxjm"]
+device = -1
+axis_value = 1.0
+
+[resource]
+script = ExtResource("1_4empj")
+events = Array[InputEvent]([SubResource("InputEventJoypadMotion_koxjm")])
+textures = Array[Texture]([ExtResource("2_y8rxx")])

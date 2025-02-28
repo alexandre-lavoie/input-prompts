@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="DeviceMappingResource" load_steps=29 format=3 uid="uid://yssdehyugts5"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_63goh"]
+[ext_resource type="Resource" uid="uid://cdjbbicnk2h5r" path="res://addons/input_prompts/devices/xbox/input/xbox_a.tres" id="2_0dn4d"]
+[ext_resource type="Resource" uid="uid://7e87y8iwk46n" path="res://addons/input_prompts/devices/xbox/input/xbox_b.tres" id="3_56fkn"]
+[ext_resource type="Resource" uid="uid://8cwr6tnvncew" path="res://addons/input_prompts/devices/xbox/input/xbox_x.tres" id="4_gwrat"]
+[ext_resource type="Resource" uid="uid://cy3p07wlly8a3" path="res://addons/input_prompts/devices/xbox/input/xbox_y.tres" id="5_oi31i"]
+[ext_resource type="Resource" uid="uid://c5tjv23l7wpiq" path="res://addons/input_prompts/devices/xbox/input/xbox_guide.tres" id="8_jk40y"]
+[ext_resource type="Resource" uid="uid://bdgayci77w7d6" path="res://addons/input_prompts/devices/xbox/input/xbox_menu.tres" id="9_tb3n0"]
+[ext_resource type="Resource" uid="uid://cw3cw0slqfeyc" path="res://addons/input_prompts/devices/xbox/input/xbox_view.tres" id="10_jtdku"]
+[ext_resource type="Resource" uid="uid://ctqmrb3fotldp" path="res://addons/input_prompts/devices/xbox/input/xbox_lb.tres" id="12_m616i"]
+[ext_resource type="Resource" uid="uid://dpm2pwekqmce1" path="res://addons/input_prompts/devices/xbox/input/xbox_lt.tres" id="13_n4erq"]
+[ext_resource type="Resource" uid="uid://bo1snoqyalc2c" path="res://addons/input_prompts/devices/xbox/input/xbox_rb.tres" id="14_t3q37"]
+[ext_resource type="Resource" uid="uid://bv8xyxmv05ctd" path="res://addons/input_prompts/devices/xbox/input/xbox_rt.tres" id="15_yfhpn"]
+[ext_resource type="Resource" uid="uid://1ujk70hetkhy" path="res://addons/input_prompts/devices/xbox/input/xbox_dpad_left.tres" id="16_d5vtq"]
+[ext_resource type="Resource" uid="uid://drtcffy3bbqcf" path="res://addons/input_prompts/devices/xbox/input/xbox_dpad_right.tres" id="17_mrrrd"]
+[ext_resource type="Resource" uid="uid://prbgriolpjk4" path="res://addons/input_prompts/devices/xbox/input/xbox_dpad_up.tres" id="18_gju8d"]
+[ext_resource type="Resource" uid="uid://dnjmqrqia8set" path="res://addons/input_prompts/devices/xbox/input/xbox_dpad_down.tres" id="19_hy3o6"]
+[ext_resource type="Resource" uid="uid://cnhpo0b2x31hl" path="res://addons/input_prompts/devices/joystick/input/stick_l_left.tres" id="20_iikil"]
+[ext_resource type="Resource" uid="uid://dvpye1kf78aj3" path="res://addons/input_prompts/devices/joystick/input/stick_l_right.tres" id="21_c7vx0"]
+[ext_resource type="Resource" uid="uid://bsi0nqxgg0ueu" path="res://addons/input_prompts/devices/joystick/input/stick_l_up.tres" id="22_ebn2u"]
+[ext_resource type="Resource" uid="uid://pi1y7332y4ft" path="res://addons/input_prompts/devices/joystick/input/stick_l_press.tres" id="23_3bkgo"]
+[ext_resource type="Resource" uid="uid://4fkywf442xpx" path="res://addons/input_prompts/devices/joystick/input/stick_l_down.tres" id="23_m4amf"]
+[ext_resource type="Resource" uid="uid://bqf0n767os362" path="res://addons/input_prompts/devices/joystick/input/stick_r_left.tres" id="24_o3xv6"]
+[ext_resource type="Resource" uid="uid://c52i13tkhjba1" path="res://addons/input_prompts/devices/joystick/input/stick_r_right.tres" id="25_ejjf0"]
+[ext_resource type="Resource" uid="uid://cbtjndq1b6bec" path="res://addons/input_prompts/devices/joystick/input/stick_r_up.tres" id="26_wsjci"]
+[ext_resource type="Resource" uid="uid://ko2abgmxcj8y" path="res://addons/input_prompts/devices/joystick/input/stick_r_down.tres" id="27_ocnuw"]
+[ext_resource type="Resource" uid="uid://b7imd248kg7hi" path="res://addons/input_prompts/devices/joystick/input/stick_r_press.tres" id="28_tbqdj"]
+[ext_resource type="Script" path="res://addons/input_prompts/device_mapping_resource.gd" id="28_tn78g"]
+[ext_resource type="Texture2D" uid="uid://cjw5jwwnh7sop" path="res://addons/input_prompts/devices/xbox/assets/controller_xboxone.svg" id="30_8fi87"]
+
+[resource]
+script = ExtResource("28_tn78g")
+names = Array[String](["Xbox One", "02dd"])
+textures = Array[Texture]([ExtResource("30_8fi87")])
+inputs = Array[ExtResource("1_63goh")]([ExtResource("2_0dn4d"), ExtResource("3_56fkn"), ExtResource("4_gwrat"), ExtResource("5_oi31i"), ExtResource("8_jk40y"), ExtResource("9_tb3n0"), ExtResource("10_jtdku"), ExtResource("12_m616i"), ExtResource("13_n4erq"), ExtResource("14_t3q37"), ExtResource("15_yfhpn"), ExtResource("16_d5vtq"), ExtResource("17_mrrrd"), ExtResource("18_gju8d"), ExtResource("19_hy3o6"), ExtResource("20_iikil"), ExtResource("21_c7vx0"), ExtResource("22_ebn2u"), ExtResource("23_m4amf"), ExtResource("23_3bkgo"), ExtResource("24_o3xv6"), ExtResource("25_ejjf0"), ExtResource("26_wsjci"), ExtResource("27_ocnuw"), ExtResource("28_tbqdj")])

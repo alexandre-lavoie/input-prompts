@@ -1,0 +1,39 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwhumb1icn8ug"]
+
+[ext_resource type="Script" path="res://demo/input_prompts/action.gd" id="1_0jpmk"]
+[ext_resource type="Texture2D" uid="uid://cmb57txggj4ej" path="res://addons/input_prompts/devices/joystick/assets/button_down.svg" id="2_oonwd"]
+
+[node name="Action" type="Control" node_paths=PackedStringArray("label", "texture_rect")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_0jpmk")
+label = NodePath("VBoxContainer/Label")
+devices = Array[int]([-1, 0, 1, 2, 3, 4, 5, 6, 7])
+texture_rect = NodePath("VBoxContainer/TextureRect")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Action"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("2_oonwd")
+expand_mode = 2
+stretch_mode = 5

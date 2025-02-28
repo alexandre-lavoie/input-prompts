@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://4fkywf442xpx"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_vg8mb"]
+[ext_resource type="Texture2D" uid="uid://knjb4kufk2er" path="res://addons/input_prompts/devices/joystick/assets/stick_l_down.svg" id="2_28eh1"]
+
+[sub_resource type="InputEventJoypadMotion" id="InputEventJoypadMotion_plouf"]
+device = -1
+axis = 1
+axis_value = 1.0
+
+[resource]
+script = ExtResource("1_vg8mb")
+events = Array[InputEvent]([SubResource("InputEventJoypadMotion_plouf")])
+textures = Array[Texture]([ExtResource("2_28eh1")])

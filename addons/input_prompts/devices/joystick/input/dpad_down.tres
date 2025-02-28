@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://d1y3d04ad4k8q"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_48npp"]
+[ext_resource type="Texture2D" uid="uid://ixknswqp1xf0" path="res://addons/input_prompts/devices/xbox/assets/xbox_dpad_down.svg" id="2_1blud"]
+
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_kr7ey"]
+device = -1
+button_index = 12
+pressed = true
+
+[resource]
+script = ExtResource("1_48npp")
+events = Array[InputEvent]([SubResource("InputEventJoypadButton_kr7ey")])
+textures = Array[Texture]([ExtResource("2_1blud")])

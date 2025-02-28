@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="DeviceMappingResource" load_steps=28 format=3 uid="uid://rb7onpeyhwqg"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_jrww0"]
+[ext_resource type="Script" path="res://addons/input_prompts/device_mapping_resource.gd" id="2_5gtbr"]
+[ext_resource type="Resource" uid="uid://dvds0oweb3h82" path="res://addons/input_prompts/devices/joystick/input/start.tres" id="2_7s2qj"]
+[ext_resource type="Resource" uid="uid://cv756ilqhia1e" path="res://addons/input_prompts/devices/joystick/input/button_down.tres" id="2_icojv"]
+[ext_resource type="Resource" uid="uid://cjttgn7as72wm" path="res://addons/input_prompts/devices/joystick/input/button_right.tres" id="3_1fetg"]
+[ext_resource type="Resource" uid="uid://dbok3a7e1yom5" path="res://addons/input_prompts/devices/joystick/input/back.tres" id="3_mxrhr"]
+[ext_resource type="Resource" uid="uid://b8ihi7jxuhpdk" path="res://addons/input_prompts/devices/joystick/input/button_left.tres" id="4_c0w3o"]
+[ext_resource type="Resource" uid="uid://0mxth00m1qes" path="res://addons/input_prompts/devices/joystick/input/dpad_left.tres" id="4_gcalx"]
+[ext_resource type="Resource" uid="uid://dmy1isbryrmly" path="res://addons/input_prompts/devices/joystick/input/left_trigger.tres" id="4_kpjh4"]
+[ext_resource type="Resource" uid="uid://csuse7boc3bte" path="res://addons/input_prompts/devices/joystick/input/dpad_right.tres" id="5_1p3g4"]
+[ext_resource type="Resource" uid="uid://dxs1sta4cyvas" path="res://addons/input_prompts/devices/joystick/input/button_up.tres" id="5_8yr5r"]
+[ext_resource type="Resource" uid="uid://cjulh6oi72cj" path="res://addons/input_prompts/devices/joystick/input/right_trigger.tres" id="5_38e42"]
+[ext_resource type="Resource" uid="uid://cq3qfe17igj5u" path="res://addons/input_prompts/devices/joystick/input/left_shoulder.tres" id="6_nsu1h"]
+[ext_resource type="Resource" uid="uid://dw5unhivb18e7" path="res://addons/input_prompts/devices/joystick/input/dpad_up.tres" id="6_v4pac"]
+[ext_resource type="Resource" uid="uid://dicww0gb0vpy0" path="res://addons/input_prompts/devices/joystick/input/right_shoulder.tres" id="7_blpci"]
+[ext_resource type="Resource" uid="uid://d1y3d04ad4k8q" path="res://addons/input_prompts/devices/joystick/input/dpad_down.tres" id="7_wrtoi"]
+[ext_resource type="Resource" uid="uid://cnhpo0b2x31hl" path="res://addons/input_prompts/devices/joystick/input/stick_l_left.tres" id="8_he4th"]
+[ext_resource type="Resource" uid="uid://pi1y7332y4ft" path="res://addons/input_prompts/devices/joystick/input/stick_l_press.tres" id="8_rhuso"]
+[ext_resource type="Resource" uid="uid://dvpye1kf78aj3" path="res://addons/input_prompts/devices/joystick/input/stick_l_right.tres" id="9_oav3n"]
+[ext_resource type="Resource" uid="uid://bsi0nqxgg0ueu" path="res://addons/input_prompts/devices/joystick/input/stick_l_up.tres" id="10_gaotf"]
+[ext_resource type="Resource" uid="uid://4fkywf442xpx" path="res://addons/input_prompts/devices/joystick/input/stick_l_down.tres" id="11_dsimc"]
+[ext_resource type="Resource" uid="uid://bqf0n767os362" path="res://addons/input_prompts/devices/joystick/input/stick_r_left.tres" id="12_vwpvd"]
+[ext_resource type="Resource" uid="uid://c52i13tkhjba1" path="res://addons/input_prompts/devices/joystick/input/stick_r_right.tres" id="13_xu2jb"]
+[ext_resource type="Resource" uid="uid://cbtjndq1b6bec" path="res://addons/input_prompts/devices/joystick/input/stick_r_up.tres" id="14_bd45a"]
+[ext_resource type="Resource" uid="uid://ko2abgmxcj8y" path="res://addons/input_prompts/devices/joystick/input/stick_r_down.tres" id="15_25ex7"]
+[ext_resource type="Texture2D" uid="uid://ds33orhlahqw0" path="res://addons/input_prompts/devices/joystick/assets/controller_generic.svg" id="17_gy8hu"]
+[ext_resource type="Resource" uid="uid://b7imd248kg7hi" path="res://addons/input_prompts/devices/joystick/input/stick_r_press.tres" id="17_ky7ea"]
+
+[resource]
+script = ExtResource("2_5gtbr")
+names = Array[String](["Controller"])
+textures = Array[Texture]([ExtResource("17_gy8hu")])
+inputs = Array[ExtResource("1_jrww0")]([ExtResource("2_icojv"), ExtResource("3_1fetg"), ExtResource("4_c0w3o"), ExtResource("5_8yr5r"), ExtResource("2_7s2qj"), ExtResource("3_mxrhr"), ExtResource("4_kpjh4"), ExtResource("5_38e42"), ExtResource("6_nsu1h"), ExtResource("7_blpci"), ExtResource("4_gcalx"), ExtResource("5_1p3g4"), ExtResource("6_v4pac"), ExtResource("7_wrtoi"), ExtResource("8_he4th"), ExtResource("9_oav3n"), ExtResource("10_gaotf"), ExtResource("11_dsimc"), ExtResource("8_rhuso"), ExtResource("12_vwpvd"), ExtResource("13_xu2jb"), ExtResource("14_bd45a"), ExtResource("15_25ex7"), ExtResource("17_ky7ea")])

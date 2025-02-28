@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://i047cic55drr"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_3a258"]
+[ext_resource type="Texture2D" uid="uid://dnp1qvnp73ojt" path="res://addons/input_prompts/devices/playstation/assets/playstation_button_circle.svg" id="2_jbabr"]
+
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_hul2c"]
+device = -1
+button_index = 1
+pressed = true
+
+[resource]
+script = ExtResource("1_3a258")
+events = Array[InputEvent]([SubResource("InputEventJoypadButton_hul2c")])
+textures = Array[Texture]([ExtResource("2_jbabr")])

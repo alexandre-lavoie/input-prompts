@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="InputPromptsBuildKeyboard" load_steps=3 format=3 uid="uid://b1ttcrm3r8q8v"]
+
+[ext_resource type="Texture2D" uid="uid://cwrrhgjddlpyl" path="res://addons/input_prompts/devices/keyboard/assets/controller_keyboard.svg" id="1_lagvk"]
+[ext_resource type="Script" path="res://addons/input_prompts/devices/keyboard/build_keyboard.gd" id="2_ugrpx"]
+
+[resource]
+script = ExtResource("2_ugrpx")
+texture_root = "res://addons/input_prompts/assets/keyboard"
+device_texture = ExtResource("1_lagvk")
+key_root = "res://addons/input_prompts/devices/keyboard/key"
+shift_modifier = true
+ctrl_modifier = false
+alt_modifier = false
+meta_modifier = false
+run_build_keys = false
+device_root = "res://addons/input_prompts/devices/keyboard"
+input_sort_end = Array[String](["alt", "shift", "ctrl", "meta"])
+run_build_keyboards = false

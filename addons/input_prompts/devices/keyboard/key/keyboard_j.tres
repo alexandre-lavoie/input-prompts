@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=5 format=3 uid="uid://dbs4nua0el72c"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_g32ng"]
+[ext_resource type="Texture2D" uid="uid://co2b33bnbnrwi" path="res://addons/input_prompts/devices/keyboard/assets/keyboard_j.svg" id="2_31i3u"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_dj57e"]
+physical_keycode = 74
+
+[sub_resource type="InputEventKey" id="InputEventKey_tdw5x"]
+shift_pressed = true
+physical_keycode = 74
+
+[resource]
+script = ExtResource("1_g32ng")
+events = Array[InputEvent]([SubResource("InputEventKey_dj57e"), SubResource("InputEventKey_tdw5x")])
+textures = Array[Texture]([ExtResource("2_31i3u")])

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=5 format=3 uid="uid://og14j0llky7d"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_tmd3x"]
+[ext_resource type="Texture2D" uid="uid://5cdn8ie6fa0" path="res://addons/input_prompts/devices/keyboard/assets/keyboard_capslock.svg" id="2_63cs1"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_jxuy1"]
+physical_keycode = 4194329
+
+[sub_resource type="InputEventKey" id="InputEventKey_gou0b"]
+shift_pressed = true
+physical_keycode = 4194329
+
+[resource]
+script = ExtResource("1_tmd3x")
+events = Array[InputEvent]([SubResource("InputEventKey_jxuy1"), SubResource("InputEventKey_gou0b")])
+textures = Array[Texture]([ExtResource("2_63cs1")])

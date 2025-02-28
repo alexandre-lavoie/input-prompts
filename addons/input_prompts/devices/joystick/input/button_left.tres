@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="DeviceInputResource" load_steps=4 format=3 uid="uid://b8ihi7jxuhpdk"]
+
+[ext_resource type="Script" path="res://addons/input_prompts/device_input_resource.gd" id="1_s5wsb"]
+[ext_resource type="Texture2D" uid="uid://b3u031wl75pji" path="res://addons/input_prompts/devices/joystick/assets/button_left.svg" id="2_rh3mv"]
+
+[sub_resource type="InputEventJoypadButton" id="InputEventJoypadButton_hul2c"]
+device = -1
+button_index = 2
+pressed = true
+
+[resource]
+script = ExtResource("1_s5wsb")
+events = Array[InputEvent]([SubResource("InputEventJoypadButton_hul2c")])
+textures = Array[Texture]([ExtResource("2_rh3mv")])
