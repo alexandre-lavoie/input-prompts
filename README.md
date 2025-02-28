@@ -1,6 +1,6 @@
 # Input Prompts
 
-![Preview](.github/images/preview.png)
+![Preview](images/preview.png)
 
 A simple Godot package to display input prompts for multiple devices.
 
